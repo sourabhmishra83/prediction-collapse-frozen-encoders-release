@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+review_outputs/
+.env
+*.token
+inputs/
+private/
+embedding_cache/
+*.pt
+*.pkl
+*.zip
+*plan*.json
+*approval*.json
+*.docx

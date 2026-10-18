@@ -1,0 +1,37 @@
+{
+  "class_chosen_from_training": 0,
+  "test": {
+    "accuracy": 0.6558441558441559,
+    "collapsed": true,
+    "confusion_matrix": [
+      [
+        202,
+        0,
+        0
+      ],
+      [
+        86,
+        0,
+        0
+      ],
+      [
+        20,
+        0,
+        0
+      ]
+    ],
+    "macro_f1": 0.26405228758169935,
+    "mcc": 0.0,
+    "prediction_counts": [
+      308,
+      0,
+      0
+    ],
+    "recall": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "rows": 308
+  }
+}

@@ -1,0 +1,5 @@
+dataset_key,rows,drive_snapshot_identical,exact_cross_split_groups,exact_cross_split_rows,test_n,exact_test_rows_seen_in_training,normalized_test_rows_seen_in_training,exact_text_groups_with_different_labels
+coaid,5457,True,11,26,546,6,7,0
+fakenewsnet,23196,True,380,1095,2320,200,201,123
+liar,12836,True,8,18,1284,4,4,4
+fakehealth,16576,,273,605,1658,135,144,2

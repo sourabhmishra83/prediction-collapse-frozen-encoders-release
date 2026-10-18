@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "TF-IDF vocabulary fitted to training only",
+    "All three heads produce three-class finite gradients without modifying weights; receive-only graph invariance holds",
+    "Three-class metrics and constant-prediction collapse checked",
+    "Synthetic fixtures exercise paired seeds, metric recomputation, earliest-tie selection and corrupt-file rejection"
+  ],
+  "gpu_tested": false,
+  "optimizer_steps_executed": 0,
+  "real_training_executed": false,
+  "synthetic_only": true
+}

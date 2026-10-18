@@ -1,0 +1,59 @@
+{
+  "device": "cpu",
+  "final_test": {
+    "accuracy": 0.801094890510949,
+    "collapsed": false,
+    "macro_f1": 0.7301382921529029,
+    "mcc": 0.5137070276642272,
+    "pred_fake_frac": 0.3156934306569343
+  },
+  "final_validation": {
+    "accuracy": 0.7849264705882353,
+    "collapsed": false,
+    "macro_f1": 0.705124463161406,
+    "mcc": 0.46289409023474265,
+    "pred_fake_frac": 0.3125
+  },
+  "initialization_validation": {
+    "accuracy": 0.16727941176470587,
+    "collapsed": true,
+    "macro_f1": 0.14330708661417324,
+    "mcc": 0.0,
+    "pred_fake_frac": 1.0
+  },
+  "job": {
+    "actual_fake_ratio": 0.5006385696040868,
+    "cohort_manifest": "experiments/grouped_control/cohorts/coaid_p0.50_seed4.csv",
+    "cohort_sha256": "2e87cdb955a69e702b7c02b956e34178cc93dc95636cb7527214c7e960236a33",
+    "fixed_n": 783,
+    "input": "data/inputs/coaid_clean.csv",
+    "input_sha256": "01d505ea6fb9e605f928af66b4c0f066060f919ce43c81ef3942f456702d3185",
+    "job_id": "coaid_p0.50_unweighted_ce_seed4",
+    "loss": "unweighted_ce",
+    "n_fake": 392,
+    "n_real": 391,
+    "seed": 4,
+    "source": "coaid",
+    "split_manifest": "experiments/grouped_control/splits/coaid_split.csv",
+    "split_sha256": "d8dca5310dabef6f30bd5b7c7b5e15473676a31e21eec66a0496067140c187c2",
+    "status": "prepared_not_executed",
+    "target_fake_ratio": 0.5
+  },
+  "selected_epoch_index": 3,
+  "selected_test": {
+    "accuracy": 0.864963503649635,
+    "collapsed": false,
+    "macro_f1": 0.7583428680396644,
+    "mcc": 0.5169082109988814,
+    "pred_fake_frac": 0.16423357664233576
+  },
+  "selected_validation": {
+    "accuracy": 0.8768382352941176,
+    "collapsed": false,
+    "macro_f1": 0.7697463596449667,
+    "mcc": 0.5407628036457252,
+    "pred_fake_frac": 0.15073529411764705
+  },
+  "selection_candidates": "post-update epochs only; initialization diagnostic excluded",
+  "training_ever_collapsed": true
+}

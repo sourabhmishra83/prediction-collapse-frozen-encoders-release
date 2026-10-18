@@ -1,0 +1,183 @@
+{
+  "clean_rows": 16576,
+  "clean_sha256": "a9afcc3d382440fa33d680a04483fc5a57c6b68b2eecd43f2f1acff5e24adaf0",
+  "saved_labels_match_rating_vote": 16576,
+  "partial_resolved": 15999,
+  "partial_disagreements": 2730,
+  "partial_unresolved": 577,
+  "rating_ties": 775,
+  "partial_ties": 761,
+  "all_clean_annotation_categories": {
+    "prediction": 16576
+  },
+  "claim_references_missing": 2,
+  "claim_rating_raw_mismatches": 3236,
+  "claim_rating_mismatch_types": {
+    "('unknown', 'null')": 3232,
+    "('unknown', 'false')": 4
+  },
+  "completed_manual_annotation_rows": 882,
+  "placeholder_manual_rows_excluded": 312,
+  "conflicting_completed_pair_types_excluded": 0,
+  "manual_comparison_on_derivative_pairs": {
+    "presence": {
+      "compared_pairs": 318,
+      "agreeing": 191,
+      "articles": 282
+    },
+    "stance": {
+      "compared_pairs": 237,
+      "agreeing": 200,
+      "articles": 215
+    }
+  },
+  "articles_with_present_and_directional_manual_pair_evidence": 142,
+  "official_sample": {
+    "articles": {
+      "rows": 1000,
+      "columns": [
+        "id",
+        "title",
+        "author_id",
+        "body",
+        "raw_body",
+        "category",
+        "perex",
+        "url",
+        "source_id",
+        "other_info",
+        "published_at",
+        "extracted_at",
+        "feedback_facebook_id",
+        "monitoring_tags"
+      ],
+      "matched_full_ids": 1000,
+      "comparisons": {
+        "title_exact": 1000,
+        "body_exact": 0,
+        "body_whitespace_equivalent": 0,
+        "both_whitespace_equivalent": 0
+      },
+      "bodies_explicitly_truncated": 1000,
+      "truncation_marker": "... <truncated>"
+    },
+    "claims": {
+      "rows": 1000,
+      "columns": [
+        "id",
+        "name",
+        "statement",
+        "description",
+        "category",
+        "rating",
+        "queries",
+        "created_at",
+        "updated_at"
+      ],
+      "matched_full_ids": 1000,
+      "rating_matches": 657
+    },
+    "entity_annotations": {
+      "rows": 1000,
+      "columns": [
+        "id",
+        "method_id",
+        "annotation_type_id",
+        "annotation_category",
+        "entity_type",
+        "entity_id",
+        "value",
+        "created_at",
+        "updated_at"
+      ],
+      "annotation_counts": {
+        "(6, 'prediction')": 1000
+      },
+      "matched_full_ids": 1000,
+      "identical_values": 1000
+    },
+    "relation_annotations": {
+      "rows": 1000,
+      "columns": [
+        "id",
+        "method_id",
+        "annotation_type_id",
+        "annotation_category",
+        "source_entity_type",
+        "source_entity_id",
+        "target_entity_type",
+        "target_entity_id",
+        "value",
+        "created_at",
+        "updated_at"
+      ],
+      "annotation_counts": {
+        "(2, 'prediction')": 172,
+        "(4, 'label')": 828
+      }
+    }
+  },
+  "review_sample": [
+    {
+      "stratum": "class0_agree",
+      "population": 6716,
+      "sample": 20,
+      "inclusion_probability": 0.0029779630732578916
+    },
+    {
+      "stratum": "class0_disagree",
+      "population": 2029,
+      "sample": 20,
+      "inclusion_probability": 0.009857072449482503
+    },
+    {
+      "stratum": "class0_unresolved",
+      "population": 410,
+      "sample": 20,
+      "inclusion_probability": 0.04878048780487805
+    },
+    {
+      "stratum": "class1_agree",
+      "population": 6553,
+      "sample": 20,
+      "inclusion_probability": 0.003052037234854265
+    },
+    {
+      "stratum": "class1_disagree",
+      "population": 701,
+      "sample": 20,
+      "inclusion_probability": 0.028530670470756064
+    },
+    {
+      "stratum": "class1_unresolved",
+      "population": 167,
+      "sample": 20,
+      "inclusion_probability": 0.11976047904191617
+    }
+  ],
+  "review_sample_size": 120,
+  "review_seed": 20261017,
+  "independent_human_article_truth_review_completed": false,
+  "raw_texts_uploaded": false,
+  "official_commit": "a3bb84ed7c3a9e7e83e837a277037f0c8726c499",
+  "private_task_correct_expert_subsets": {
+    "presence": {
+      "pairs": 340,
+      "articles": 304,
+      "labels": {
+        "present": 192,
+        "not-present": 89,
+        "suggestive": 59
+      }
+    },
+    "stance": {
+      "pairs": 240,
+      "articles": 218,
+      "labels": {
+        "supporting": 155,
+        "contradicting": 67,
+        "neutral": 18
+      }
+    }
+  }
+}

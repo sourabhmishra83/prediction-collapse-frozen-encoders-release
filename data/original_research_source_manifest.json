@@ -1,0 +1,173 @@
+{
+  "frozen_date": "2026-10-12",
+  "files": [
+    {
+      "path": "data/inputs/coaid_clean.csv",
+      "sha256": "01d505ea6fb9e605f928af66b4c0f066060f919ce43c81ef3942f456702d3185",
+      "bytes": 2001101,
+      "kind": "verified_current_input"
+    },
+    {
+      "path": "data/inputs/fakenewsnet_clean.csv",
+      "sha256": "707eaffc23ceed141a782618d68393f8043b3c61f3946fc79dc51f819ddae2bc",
+      "bytes": 2460276,
+      "kind": "verified_current_input"
+    },
+    {
+      "path": "data/historical_summaries/batch.csv",
+      "sha256": "be9bebbc499e837de3471c58be30dcb833a73d98613cf126ce0475d7c0dca3cd",
+      "bytes": 4424,
+      "kind": "historical_summary"
+    },
+    {
+      "path": "data/historical_summaries/cross_domain.csv",
+      "sha256": "73dac0aa0a1a91367743362fd4dbe845e19784ca5e4f90892690c876c3795641",
+      "bytes": 8308,
+      "kind": "historical_summary"
+    },
+    {
+      "path": "data/historical_summaries/extended.csv",
+      "sha256": "650cc1a1fd6ec4770ecd3e6f1f4c8f65e12836b968b8f54af47e16775daea181",
+      "bytes": 28827,
+      "kind": "historical_summary"
+    },
+    {
+      "path": "data/historical_summaries/fixed_n.csv",
+      "sha256": "f067c0fc0b221d58ebac42bc8ed583dcb61b3b8b0b9730823164351b9d3bdc27",
+      "bytes": 20902,
+      "kind": "historical_summary"
+    },
+    {
+      "path": "data/historical_summaries/gat_sweep.csv",
+      "sha256": "b6f15b02ef169fb7177145033ab71517a612f8e75f3a5ee8302152b32babef8d",
+      "bytes": 7512,
+      "kind": "historical_summary"
+    },
+    {
+      "path": "data/historical_summaries/gcn_sweep.csv",
+      "sha256": "4971cb7911f2d3bcc0afd4be793e897ca2977ae2f302d4bbb778194b0109aa44",
+      "bytes": 7489,
+      "kind": "historical_summary"
+    },
+    {
+      "path": "data/historical_summaries/mitigation.csv",
+      "sha256": "da5b39d81ec5828f51e18fdb087286161ff0e140136212747695c087d15f6694",
+      "bytes": 62010,
+      "kind": "historical_summary"
+    },
+    {
+      "path": "data/historical_summaries/tbase_sweep.csv",
+      "sha256": "8050a68001aed4e305fb3b2b682b09c78ab7f8776e6d95d179d9c789ef935965",
+      "bytes": 7437,
+      "kind": "historical_summary"
+    },
+    {
+      "path": "data/historical_summaries/warmup.csv",
+      "sha256": "c9757b2db875fb003b17a61163533a9375b1699890720a896bf7ced7674a2fb0",
+      "bytes": 1095,
+      "kind": "historical_summary"
+    },
+    {
+      "path": "experiments/existing_2026/analyze_collapse.ipynb",
+      "sha256": "71c83ee547b7bb483ad12c0a7d7264d01753c5c52822c5bb44513a85f326d07a",
+      "bytes": 4742,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/analyze_collapse_gat.ipynb",
+      "sha256": "d15e304ec3eff50e8cae2e107acfd576337760393f68a9c3897bd681c1911f43",
+      "bytes": 4754,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/batch_size_experiment.ipynb",
+      "sha256": "7a32ee7826755b557277d94f5840315c9a7b0d1fa754c6df66ce70e5b8f5b9ac",
+      "bytes": 13385,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/extended_seed_sweep.ipynb",
+      "sha256": "f3931ae958636061d9286ef68f924c3b49e14217fc37a7040b1c2428d74403c9",
+      "bytes": 18128,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/final_cross_domain.ipynb",
+      "sha256": "57bab5961df6b6ac5135a846e1246b3ccb55be80d664395c3315418a600d3e14",
+      "bytes": 19299,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/fixed_n_sweep.ipynb",
+      "sha256": "6c61735b8215b805656dce0cdfe7a770a7241494f7ec3db9140628b0182c6346",
+      "bytes": 19840,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/gat_imbalance_sweep.ipynb",
+      "sha256": "0cb2a59b7cae80618401913cd8769462d631d8985b81b46ed6c1260fe57813a4",
+      "bytes": 21793,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "archive/superseded_notebooks/mitigation_comparison.ipynb",
+      "sha256": "dc97bda185f470014387245e51e8e9634a356076886a1ba860863da3553e30b4",
+      "bytes": 16433,
+      "kind": "superseded_notebook"
+    },
+    {
+      "path": "archive/superseded_notebooks/mitigation_comparison_1.ipynb",
+      "sha256": "526645974afb610ea4d1ff53fe091c4b2e9c26acde429e41bdbca16b0e04d31a",
+      "bytes": 21178,
+      "kind": "superseded_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/mitigation_comparison_v2.ipynb",
+      "sha256": "67bd08a7bfd4f30469ebb0ae7c28fbb1f493a30b2dd2ab2344ffc1433c21999d",
+      "bytes": 22556,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/tbase_imbalance_sweep.ipynb",
+      "sha256": "8c31bbe14cd62253cac549e105309362861cfb26934fd8b2aa091faabe843c50",
+      "bytes": 14870,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/verify_no_collapse.ipynb",
+      "sha256": "b791071e540f459186f9c8cd5d719a63b7d550a7c133f1792727981e727d0619",
+      "bytes": 3477,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/warmup_confirmation.ipynb",
+      "sha256": "6f9c8a2b495e392a5e9ad58ed8371207170ad737e52c21e93ee27663c1c4d5bf",
+      "bytes": 12527,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/imbalance_sweep.ipynb",
+      "sha256": "de15d8c519cedb30b58c76df68ab93755981f8f9c43f37366a980defc11317f8",
+      "bytes": 164793,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/analyze_collapse_direction.ipynb",
+      "sha256": "fd0866f5fc81165d3209a631f8477330be86c4ea4f4e10f19fa8b9a171762ef5",
+      "bytes": 4740,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "experiments/existing_2026/cross_domain_hybrid_v3.ipynb",
+      "sha256": "f05b9a0634452dd44d3c57e106b7ae85b98f8e985d470de568d326e5f96e0e67",
+      "bytes": 22139,
+      "kind": "active_2026_notebook"
+    },
+    {
+      "path": "archive/superseded_notebooks/cross_domain_hybrid_v2.ipynb",
+      "sha256": "ace03afd0040d2fb1be916fb85baa52a3925e0c474f7edb49c37ae3ab14be799",
+      "bytes": 20619,
+      "kind": "superseded_notebook"
+    }
+  ]
+}

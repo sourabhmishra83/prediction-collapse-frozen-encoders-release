@@ -1,0 +1,17 @@
+family,raw,source_prior,evaluations
+existing_mlp,class0,class0,14
+existing_mlp,class1,class0,41
+existing_mlp,class1,none,9
+existing_mlp,none,class0,59
+existing_mlp,none,none,93
+linear,class0,none,8
+linear,class1,none,36
+linear,none,none,280
+mirror_mlp,class0,class0,16
+mirror_mlp,class0,class1,20
+mirror_mlp,class0,none,5
+mirror_mlp,class1,class0,3
+mirror_mlp,class1,none,2
+mirror_mlp,none,class0,19
+mirror_mlp,none,class1,6
+mirror_mlp,none,none,37

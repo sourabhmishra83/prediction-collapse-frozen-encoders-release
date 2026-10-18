@@ -1,0 +1,4 @@
+model_type,configuration_rows,collapsed_rows,class0_collapsed_rows,class1_collapsed_rows
+gat,70,70,0,70
+gcn,70,59,17,42
+tbase,70,63,10,53

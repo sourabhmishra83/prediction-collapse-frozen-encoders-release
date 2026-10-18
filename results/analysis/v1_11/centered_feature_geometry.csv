@@ -1,0 +1,7 @@
+encoder,source,training_rows,mean_centered_distinct_pair_cosine,centering,cache_sha256
+RoBERTa,coaid,4365,0.00010834240431332257,"full source training mean, no evaluation rows",b361eece33a92981b0b5360f0c299362b63149db07028757cf949537a7ef9ff9
+RoBERTa,fakenewsnet,18534,0.0015094063690051917,"full source training mean, no evaluation rows",480bbf68b6b4a0606d7e8fd43156549d401e18c79b27ae7424448bf03e7d34a7
+RoBERTa,liar,10271,0.0021508914207723014,"full source training mean, no evaluation rows",252a568389b46074dfe924806c1bf619090514607523e964ffdf07e387c6fc32
+BERT,coaid,4365,0.0030126558158166295,"full source training mean, no evaluation rows",28baad8d834aa744f97d268b8b7269b9ef23f7e69e9d11b5d6c2e3bcc945a8f4
+BERT,fakenewsnet,18534,0.0032718449258909536,"full source training mean, no evaluation rows",3324a15ed6918b7f79c9caac2a9b89e0e35c5a0de7d22977ada2c4058ae9cc9f
+BERT,liar,10271,0.00041047326007869666,"full source training mean, no evaluation rows",060d25f1f2b355bb9e4dca959932762516c07506cc529e88f5c769f19c2c6eb7

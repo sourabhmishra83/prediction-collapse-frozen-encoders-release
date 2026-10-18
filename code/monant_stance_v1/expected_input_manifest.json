@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "file": "monant_stance_pairs_v1.csv.gz",
+  "sha256": "cdcc517e41b5f3173a52d8addf9b67d71107289e791d3f0334e5b63e7cbfd076",
+  "bytes": 74707529,
+  "labels": {
+    "supporting": 0,
+    "contradicting": 1,
+    "neutral": 2
+  },
+  "rows": 30671,
+  "split_seed": 20261017,
+  "split_counts": {
+    "test_contradicting": 86,
+    "test_neutral": 20,
+    "test_supporting": 202,
+    "train_contradicting": 3280,
+    "train_neutral": 1231,
+    "train_supporting": 25226,
+    "validation_contradicting": 52,
+    "validation_neutral": 73,
+    "validation_supporting": 501
+  },
+  "removed_by_normalized_article_overlap": 12,
+  "largest_training_component_pairs": 29166,
+  "validation_policy": "Non-largest components shuffled with seed 20261017 until >=600 pairs and >=40/class; largest component retained for training. Topology-biased weak-label validation, not representative of expert-test performance.",
+  "source_sha256": {
+    "claims.csv": "e9a2255f257b2a5b779c16b7fb53d964bfa789e33938a4a75c921aedcfdd8a19",
+    "entity_annotations.csv": "37dab0c4bd0fb1c788cc3e4cc426ae8aa54593495b9ab3d91f02b2f3c9894550",
+    "relation_annotations.csv": "0b6c1c5e43b62aedd83deccb6204c53070a21db64f6ec04b2aeb14fa36b48947"
+  },
+  "article_text_policy": "stripped title plus dot-space plus stripped body, no raw HTML fallback",
+  "weak_supervision": "predicted presence=yes and predicted three-class stance; expert test labels excluded from all fits",
+  "training_executed": false
+}

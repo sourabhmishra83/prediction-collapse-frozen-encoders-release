@@ -1,0 +1,10 @@
+{
+  "all_completed_prediction_metrics_verified": true,
+  "complete": true,
+  "completed_jobs": 18,
+  "missing_jobs": [],
+  "new_training_executed": false,
+  "planned_jobs": 18,
+  "synthetic_only": false,
+  "test_expert_pairs": 308
+}

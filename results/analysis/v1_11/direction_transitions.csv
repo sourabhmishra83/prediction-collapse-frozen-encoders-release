@@ -1,0 +1,10 @@
+ratio,loss,initial,selected,final,jobs
+0.5,unweighted_ce,class0,none,none,36
+0.5,unweighted_ce,class1,none,none,45
+0.5,weighted_ce,class0,none,none,36
+0.5,weighted_ce,class1,none,none,45
+0.8,unweighted_ce,class0,class0,class1,18
+0.8,unweighted_ce,class0,class1,class1,18
+0.8,unweighted_ce,class1,class1,class1,45
+0.8,weighted_ce,class0,none,none,36
+0.8,weighted_ce,class1,none,none,45

@@ -1,0 +1,25 @@
+{
+  "code_sha256": {
+    "prepare.py": "c52162a8bf6e2111b021f8de19acb9968a433107bbce8fb0c68d2d78d12032aa",
+    "run.py": "d09f5abca76ec35c9e440ee48023d51f2c2e7bb216eaafbb78d59d6a67b0efac",
+    "selftest.py": "acc3c02ef1cd6f23bee368cc9dcc2fef3fb18bec19d7d8ef3b23d4bcb68350d8",
+    "study_common.py": "4bbdb498340a0e61e75d21c25d1522992763e7e8fd7ce8c60b5ad8ac5d60d2dd",
+    "verify.py": "eb916ad7ed7d39481322a8f77bc6f0c62055eb0e5ea6680d23c017c9e74c635e"
+  },
+  "contract_sha256": "e06146375b87e66777377e387a33d4e9546206d8db47fddd475f9c1e66eab605",
+  "environment": {
+    "cuda": "13.0",
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "python": "3.13.15",
+    "scipy": "1.15.3",
+    "sklearn": "1.6.1",
+    "sparse_scatter_bitwise_determinism_not_guaranteed": true,
+    "tf32": false,
+    "torch": "2.11.0+cu130",
+    "transformers": "4.52.4"
+  },
+  "synthetic_smoke_only": false
+}

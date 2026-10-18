@@ -1,0 +1,32 @@
+{
+  "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "${USER_HOME}\\miniconda3\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.5.1+cu121",
+  "transformers": "4.52.4",
+  "pandas": "2.2.2",
+  "numpy": "1.26.4",
+  "sklearn": "1.6.1",
+  "cuda_available": false,
+  "compute": "CPU",
+  "encoder_downloads": false,
+  "model_weights": [
+    {
+      "snapshot": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+      "sha256": "5bde1d28afb363d0103324efeb5afc8b2b397fe5e04beabb9b1ef355255ade81"
+    }
+  ],
+  "execution_files_sha256": {
+    "03_run_grouped_control.py": "a3e32ed0df53561a09fcd6a9c7b0520d27773a759d0f9f8fdb4a1bb6ed349be0",
+    "04_analyze_grouped_control.py": "4c559344d5bd0680376164d56712eabd3971636fc9af51c5f295950987fa2154",
+    "tools/run_authorized_control.py": "79b86040d0e6586436adcdb5b607bbc836fe83534d7f6fe2d7388bb15a058cef",
+    "tools/verify_grouped_checkpoint.py": "5201c71485821b99c16b848a6f13b1e140f64aec29380b23fcdfb5bc57462213",
+    "experiments/grouped_control/run_plan.json": "bdc5b4981ddecbd0ca7254e97a057fa288380b24e99a305bb0fb524afd70c7f6"
+  },
+  "protocol_notes": [
+    "Training operates on the fixed cohort only; historical notebook forwards passed all rows before selecting train logits. Dropout random-number consumption therefore differs; this is a new control, not bitwise historical replication.",
+    "Frozen encoder CLS output only; newly initialized unused RoBERTa pooler is not used.",
+    "The preparation run plan remains immutable; execution authorization is recorded in authorization.md.",
+    "The first smoke run saves selected head and final predictions; subsequent runs also save final head."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "TFIDF vocabulary excludes held-out tokens",
+    "GCN/GAT query features cannot influence references or other queries",
+    "10 end-to-end synthetic jobs: all three models, both losses and matched-update budgets",
+    "saved prediction metrics, paired initialization and cohort checks pass",
+    "short matched-update trajectory exactly equals long-run prefix for each batch mode",
+    "completed-job resume validates hashes and does not retrain",
+    "mixed-label normalized-text groups retained together; no source rows removed",
+    "preparation resume preserves all existing plan, split, cohort and result bytes"
+  ],
+  "gpu_tested": false,
+  "real_experiments_executed": false,
+  "synthetic_only": true
+}

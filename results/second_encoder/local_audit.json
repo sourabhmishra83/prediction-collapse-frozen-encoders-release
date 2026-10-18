@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "planned_jobs": 36,
+  "locally_verified_jobs": 36,
+  "endpoint_evaluations_recomputed": 324,
+  "saved_head_states_checked": 108,
+  "frozen_input_hashes_checked_by_replication_verifier": 3,
+  "code_hashes_verified": 6,
+  "plan_matches_explicit_approval": true,
+  "prepared_files_exact_match": true,
+  "independent_metric_library": "scikit-learn",
+  "encoder_features_recomputed": false,
+  "new_training_executed": false,
+  "limitation": "One split and three seeds; encoder features not independently regenerated; checkpoints and predictions are saved execution evidence, not an independent rerun."
+}

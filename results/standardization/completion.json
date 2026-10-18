@@ -1,0 +1,12 @@
+{
+  "checkpoint_weight_replay": true,
+  "complete": true,
+  "interpretation": "Three paired seeds on one fixed split; records reuse heads across rules/targets and are not independent replications.",
+  "new_training_executed_by_verifier": false,
+  "plan_sha256": "3cf7f295483cb756cd3099ea029224e2c47756754fb5d63ff3102fd23a38342d",
+  "planned_new_fits": 72,
+  "status": "PASS",
+  "verified_complete_job_records": 72,
+  "verified_decision_rule_target_records": 648,
+  "verified_post_update_trajectory_records": 2160
+}

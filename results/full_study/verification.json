@@ -1,0 +1,8 @@
+{
+  "all_completed_predictions_verified": true,
+  "complete": true,
+  "completed_jobs": 432,
+  "new_training_executed_by_verifier": false,
+  "planned_jobs": 432,
+  "synthetic_smoke_only": false
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "plan_sha256": "3cf7f295483cb756cd3099ea029224e2c47756754fb5d63ff3102fd23a38342d",
+  "aggregate_zip_sha256": "a8816c6edb18693ffa69ccd80ab0622ad16bfbc51e16b54fb31f38b1c9fa9677",
+  "aggregate_hashes": {
+    "completion.json": "c9380ab0f7e8c6bbfd01291276fbe94d785728266799b8e981ece851375a78ba",
+    "condition_summary.csv": "2ade6b3948571eff4a185e873f9cc22084eb9bc81519c0ce78cad75475786951",
+    "decision_evaluations.csv": "017e412f7e3a2c4e0ed531de3aa28da25770d529a478e50127b8e5af64d5c4f4",
+    "endpoint_evaluations.csv": "a1487c551e5809313cf5c041be8e80ff8844bf90c4b5cf4ea695f9cdc044d4de",
+    "execution_environment.json": "4e66468d5c8a9ce42541d1c2c4168ae495be5e9491182ed9dc72795c986f02d1",
+    "job_diagnostics.csv": "74f583fb2ec6da9d05fdc646c45f8ec931bb24b2789cf6947fd12c40e26c6e08",
+    "paired_comparison.csv": "53f9749709aa5cb1da88b2d43b3cce2836b396ed43ccc03c3c84d6deb80e35bc"
+  },
+  "verified_job_records": 72,
+  "decision_records": 648,
+  "endpoint_records": 648,
+  "local_checks": [
+    "frozen file/code/plan hashes",
+    "exact approved grid",
+    "unique keys",
+    "confusion-matrix metrics and collapse flags",
+    "paired baseline reconstruction and deltas",
+    "paired source/target row counts and prevalence",
+    "selected endpoint consistency"
+  ],
+  "colab_report": "PASS including checkpoint replay; 2160 post-update validation records",
+  "local_limit": "Per-example scores, checkpoints and intermediate trajectories were checked by the Colab verifier; not independently downloaded/replayed locally. AUROC/AP are carried from that verifier, not recoverable from confusion matrices.",
+  "training_executed_locally": false,
+  "device": "cpu",
+  "torch": "2.11.0+cpu"
+}

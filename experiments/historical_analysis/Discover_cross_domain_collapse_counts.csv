@@ -1,0 +1,5 @@
+model_type,in_domain,sum,count
+hybrid,False,5,18
+hybrid,True,0,9
+tbase,False,6,18
+tbase,True,0,9

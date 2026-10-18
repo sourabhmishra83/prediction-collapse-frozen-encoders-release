@@ -1,0 +1,59 @@
+{
+  "device": "cpu",
+  "final_test": {
+    "accuracy": 0.7237732656514383,
+    "collapsed": false,
+    "macro_f1": 0.6634266471455872,
+    "mcc": 0.33945532545411455,
+    "pred_fake_frac": 0.3299492385786802
+  },
+  "final_validation": {
+    "accuracy": 0.7306353350739774,
+    "collapsed": false,
+    "macro_f1": 0.6749700610295716,
+    "mcc": 0.3650895994240714,
+    "pred_fake_frac": 0.33855526544821585
+  },
+  "initialization_validation": {
+    "accuracy": 0.24760661444734552,
+    "collapsed": true,
+    "macro_f1": 0.19846529473317057,
+    "mcc": 0.0,
+    "pred_fake_frac": 1.0
+  },
+  "job": {
+    "actual_fake_ratio": 0.5,
+    "cohort_manifest": "experiments/grouped_control/cohorts/fakenewsnet_p0.50_seed0.csv",
+    "cohort_sha256": "9b5d9c5ed3bec3889725bce196083d6aa01ebbba5d0eae0093e5d5b062903def",
+    "fixed_n": 4874,
+    "input": "data/inputs/fakenewsnet_clean.csv",
+    "input_sha256": "707eaffc23ceed141a782618d68393f8043b3c61f3946fc79dc51f819ddae2bc",
+    "job_id": "fakenewsnet_p0.50_weighted_ce_seed0",
+    "loss": "weighted_ce",
+    "n_fake": 2437,
+    "n_real": 2437,
+    "seed": 0,
+    "source": "fakenewsnet",
+    "split_manifest": "experiments/grouped_control/splits/fakenewsnet_split.csv",
+    "split_sha256": "5a4672bf2ffe57b31bb3c6125401468d65b505c04b264f55d2bc4f5ae1055cb5",
+    "status": "prepared_not_executed",
+    "target_fake_ratio": 0.5
+  },
+  "selected_epoch_index": 12,
+  "selected_test": {
+    "accuracy": 0.7648054145516074,
+    "collapsed": false,
+    "macro_f1": 0.6786598603532242,
+    "mcc": 0.35758738851727767,
+    "pred_fake_frac": 0.2356175972927242
+  },
+  "selected_validation": {
+    "accuracy": 0.7767624020887729,
+    "collapsed": false,
+    "macro_f1": 0.7013073192089043,
+    "mcc": 0.4026252471003299,
+    "pred_fake_frac": 0.24978241949521324
+  },
+  "selection_candidates": "post-update epochs only; initialization diagnostic excluded",
+  "training_ever_collapsed": true
+}

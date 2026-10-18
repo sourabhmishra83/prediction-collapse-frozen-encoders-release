@@ -1,0 +1,11 @@
+{
+  "phase": "completed",
+  "updated_unix_seconds": 1792037672.3865836,
+  "verified": {
+    "all_predictions_verified": true,
+    "complete": true,
+    "completed_jobs": 40,
+    "planned_jobs": 40,
+    "verified_pairs": 20
+  }
+}

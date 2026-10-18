@@ -1,0 +1,59 @@
+{
+  "device": "cpu",
+  "final_test": {
+    "accuracy": 0.17153284671532848,
+    "collapsed": true,
+    "macro_f1": 0.14641744548286603,
+    "mcc": 0.0,
+    "pred_fake_frac": 1.0
+  },
+  "final_validation": {
+    "accuracy": 0.16727941176470587,
+    "collapsed": true,
+    "macro_f1": 0.14330708661417324,
+    "mcc": 0.0,
+    "pred_fake_frac": 1.0
+  },
+  "initialization_validation": {
+    "accuracy": 0.16727941176470587,
+    "collapsed": true,
+    "macro_f1": 0.14330708661417324,
+    "mcc": 0.0,
+    "pred_fake_frac": 1.0
+  },
+  "job": {
+    "actual_fake_ratio": 0.7994891443167306,
+    "cohort_manifest": "experiments/grouped_control/cohorts/coaid_p0.80_seed1.csv",
+    "cohort_sha256": "ae7038377322fe04a21195caf1dd724964a36022e92112fdca0e66ebee25ba5f",
+    "fixed_n": 783,
+    "input": "data/inputs/coaid_clean.csv",
+    "input_sha256": "01d505ea6fb9e605f928af66b4c0f066060f919ce43c81ef3942f456702d3185",
+    "job_id": "coaid_p0.80_unweighted_ce_seed1",
+    "loss": "unweighted_ce",
+    "n_fake": 626,
+    "n_real": 157,
+    "seed": 1,
+    "source": "coaid",
+    "split_manifest": "experiments/grouped_control/splits/coaid_split.csv",
+    "split_sha256": "d8dca5310dabef6f30bd5b7c7b5e15473676a31e21eec66a0496067140c187c2",
+    "status": "prepared_not_executed",
+    "target_fake_ratio": 0.8
+  },
+  "selected_epoch_index": 0,
+  "selected_test": {
+    "accuracy": 0.17153284671532848,
+    "collapsed": true,
+    "macro_f1": 0.14641744548286603,
+    "mcc": 0.0,
+    "pred_fake_frac": 1.0
+  },
+  "selected_validation": {
+    "accuracy": 0.16727941176470587,
+    "collapsed": true,
+    "macro_f1": 0.14330708661417324,
+    "mcc": 0.0,
+    "pred_fake_frac": 1.0
+  },
+  "selection_candidates": "post-update epochs only; initialization diagnostic excluded",
+  "training_ever_collapsed": true
+}

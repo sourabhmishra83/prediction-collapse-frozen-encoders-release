@@ -1,0 +1,9 @@
+{
+  "edge_orientation": "receiver,sender",
+  "fit": "training pair text only",
+  "k": 10,
+  "query_to_query_messages": false,
+  "query_to_training_messages": false,
+  "training_rows": 29737,
+  "vocabulary_sha256": "b99d3f1b28ce7f49c3eed9ca18c957dc37023eca5b29ea7d12f781d9acd7015a"
+}

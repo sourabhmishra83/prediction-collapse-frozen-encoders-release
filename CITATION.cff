@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this code and aggregate-results release. A Zenodo DOI will be supplied by the author."
+type: software
+title: "Prediction collapse in frozen encoder classifiers code and aggregate results"
+authors:
+  - family-names: Mishra
+    given-names: Sourabh
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/sourabhmishra83/prediction-collapse-frozen-encoders-release"

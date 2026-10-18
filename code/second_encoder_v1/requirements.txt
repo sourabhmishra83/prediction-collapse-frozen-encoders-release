@@ -1,0 +1,11 @@
+# Python 3.9-3.12: locally smoke-tested stack.
+numpy==1.26.4; python_version < "3.13"
+pandas==2.2.2; python_version < "3.13"
+scipy==1.15.2; python_version < "3.13"
+# Python 3.13: versions with published CPython 3.13 wheels.
+numpy==2.2.6; python_version >= "3.13"
+pandas==2.2.3; python_version >= "3.13"
+scipy==1.15.3; python_version >= "3.13"
+scikit-learn==1.6.1
+transformers==4.52.4
+# Keep Colab-provided torch (>=2.5); actual environment is recorded.

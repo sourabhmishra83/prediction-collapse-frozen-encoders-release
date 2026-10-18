@@ -1,0 +1,9 @@
+{
+  "modifications": [
+    "Direct engine execution disabled",
+    "Save initial and final model states in addition to selected state"
+  ],
+  "original_common_sha256": "4bbdb498340a0e61e75d21c25d1522992763e7e8fd7ce8c60b5ad8ac5d60d2dd",
+  "original_experiment_results_modified": false,
+  "original_run_sha256": "d09f5abca76ec35c9e440ee48023d51f2c2e7bb216eaafbb78d59d6a67b0efac"
+}
