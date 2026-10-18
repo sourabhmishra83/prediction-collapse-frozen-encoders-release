@@ -1,7 +1,7 @@
 {
   "title": "Prediction collapse in frozen encoder classifiers: code and aggregate results",
   "upload_type": "software",
-  "description": "Clean review release of 2026 experiment code, aggregate results, scientific figures and verification tools. Manuscripts, experiment-plan files, raw datasets, per-example records, embeddings, learned weights and private Git history are excluded. Checkpoint/decision-rule/target evaluations are not independent replications. Monant is a separate claim/article stance task.",
+  "description": "Clean review release of 2026 experiment code, aggregate results, scientific figures and verification tools. Manuscripts, experiment-plan files, raw datasets, per-example records, embeddings, learned weights and private Git history are excluded. Checkpoint/decision-rule/target evaluations are not independent replications. Monant is a separate claim/article stance task. The reviewed code and aggregate-results release is archived at https://doi.org/10.5281/zenodo.23445417.",
   "creators": [
     {
       "name": "Mishra, Sourabh"

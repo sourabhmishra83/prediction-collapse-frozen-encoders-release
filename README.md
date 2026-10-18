@@ -2,6 +2,8 @@
 
 Code, aggregate results, scientific figures and verification material by Sourabh Mishra for a study of checkpoint-dependent prediction collapse in frozen-encoder text and graph classifiers. MIT licensed. This is a clean public review release; manuscripts and experiment-plan files are intentionally excluded.
 
+**Archived release DOI:** [10.5281/zenodo.23445417](https://doi.org/10.5281/zenodo.23445417)
+
 ## Review the saved evidence
 
 Run `python review/verify_release.py` from this directory with Python 3.10 or later. It uses only the standard library, verifies every release checksum, checks expected aggregate coverage and independently recomputes hard-decision metrics from the released confusion matrices. It never trains, downloads an encoder or accesses source datasets.
@@ -35,4 +37,6 @@ Training engines and input-preparation code are included for inspection and reus
 
 ## Citation and Zenodo
 
-Version 1.0.0 is the code-and-aggregate-results review release. `CITATION.cff` and `.zenodo.json` identify the author and MIT license. No DOI has been assigned by this repository. The author will generate the Zenodo DOI and use it in the paper. No manuscript, journal submission or acceptance is included or implied.
+The reviewed code and aggregate-results release is archived in Zenodo at [10.5281/zenodo.23445417](https://doi.org/10.5281/zenodo.23445417). `CITATION.cff` supplies the DOI for GitHub’s citation feature; `.zenodo.json` retains the author and MIT license metadata. This citation identifies the archived release; later metadata-only commits do not change the deposited archive. No manuscript, journal submission or acceptance is included or implied.
+
+Mishra S. Prediction collapse in frozen encoder classifiers: code and aggregate results. Zenodo. 2026. https://doi.org/10.5281/zenodo.23445417
